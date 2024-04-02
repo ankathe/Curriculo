@@ -1,9 +1,38 @@
-.titles-nav{
+.nav-link{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #000;
+  font-size: 14px;
 }
-.titles-nav:hover{
+.nav-link:hover{
   color: #08CEAF;
+}
+.nav-link:active {
+  border-color: #08CEAF;
+}
+.navbar-toggler {
+  border: none; /* Quita el borde */
+  outline: none; /* Quita el contorno al enfocar */
+  background-color: transparent; /* Quita el fondo */
+}
+.navbar-toggler:active {
+  border-color: #08CEAF;
+  background-color: transparent; /* Quita el color de fondo cuando se hace clic */
+  box-shadow: none; /* Quita la sombra cuando se hace clic */
+}
+
+.title-brand{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #08CEAF;
+  font-size: 36px;
+}
+.title-brand1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #000;
+  font-size: 36px;
 }
