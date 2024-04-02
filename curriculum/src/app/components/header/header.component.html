@@ -1,20 +1,31 @@
-<div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-  <div class="container">
-      <div class="row align-items-center">
-          <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-              <img class="img-fluid w-100 shadow-sm" src="/src/assets/profile.jpg" alt="">
-          </div>
-          <div class="col-lg-7 text-center text-lg-left" style="display: flex; flex-direction: column; align-items: center;">
-              <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-              <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">KATHERINE CRUZ</h1>
-              <div>
-                  <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                  <div class="typed-text d-none">Web Developer, Front End Developer</div>
-              </div>
-              <div class="d-flex align-items-center justify-content-center pt-5">
-                  <a href="" class="btn btn-outline-light mb-3">Download CV</a>
-              </div>
-          </div>
-      </div>
+<div class="container-fluid container-header d-flex justify-content-center align-items-center vh-100">
+  <div class="container-sm text-center">
+    <div class="imagen-container">
+      <img src="../../../assets/profile.jpg" alt="imagen_perfil" class="img-profile img-fluid">
+    </div>
+    <div class="text-container">
+      <h3 class="titles1">I'm</h3>
+      <h1 class="title-header">KATHERINE CRUZ</h1>
+
+        <ngx-typed-js class="d-inline"
+        [strings]="['Frontend Developer', 'Web Developer', 'Angular','Bootstrap', 'Tailwind']"
+        [typeSpeed]="50"
+        [startDelay]="1000"
+        [loop]="true"
+      >
+        <h2 class="typing titles1 d-inline"></h2>
+      </ngx-typed-js>
+
+
+      <a href="" class="btn boton btn-outline-light rounded-pill mt-4">Download CV</a>
+    </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
