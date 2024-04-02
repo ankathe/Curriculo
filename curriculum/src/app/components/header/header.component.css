@@ -6,21 +6,26 @@
   width: 250px;
 }
 
-
-
 @media (min-width: 768px) {
   .img-profile{
-    height: 450px;
-    width: 450px;
+    height: 600px;
+    width: 600px;
   }
 }
 
 @media (min-width: 1025px) {
-  .container-header{
-    display: inline-block;
+  .container-header1{
+    display: contents;
   }
   .img-profile{
-    height: 550px;
-    width: 550px;
+    height: 500px;
+    width: 500px;
   }
 }
+
+/* @media (max-width: 1025px) {
+  .img-profile{
+    height: 600px;
+    width: 600px;
+  }
+} */

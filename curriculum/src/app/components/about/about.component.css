@@ -3,4 +3,10 @@
   border-color: #08CEAF;
 }
 
+@media (min-width: 1025px) {
+  .container-info-about{
+    justify-content: center;
+  }
+}
+
 
