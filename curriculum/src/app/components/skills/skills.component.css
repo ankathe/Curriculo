@@ -1,0 +1,40 @@
+.title-sections {
+  font-size: 6rem;
+}
+
+.title-section1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 425px) {
+  .title-sections {
+    font-size: 7rem;
+  }
+
+  .title-section1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .title-sections {
+    font-size: 9rem;
+  }
+
+  .title-section1 {
+    font-size: 3rem;
+  }
+}
+
+@media(min-width:768px){
+  .container-quality{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .title-sections {
+    font-size: 10rem;
+  }
+  .title-section1 {
+    font-size: 3rem;
+  }
+}

@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -9,52 +10,67 @@ body {
   background-color: #ffffff;
 }
 
-.table tbody + tbody {
-  border-top: 2px solid #dee2e6;
-}
-
-:root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #0BCEAF;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #ffffff;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.title-header{
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+
+.titles1{
+  color: #fff;
+}
+.titles2{
+  color: #000;
+}
+
+.titles-nav{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+.title-nav:hover{
+  color: #08CEAF;
+}
+
+.title-sections{
+  color: #fff;
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 130px;
+  letter-spacing: 0.05em;
+}
+
+.title-section1{
+  color: #08CEAF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.text-secondary{
+  font-size: 15px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.boton{
+  font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {

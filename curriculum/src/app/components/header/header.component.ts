@@ -9,5 +9,4 @@ import {NgxTypedJsModule} from 'ngx-typed-js';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
 }
