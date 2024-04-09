@@ -1,12 +1,9 @@
-.boton{
-  color: #08CEAF;
-  border-color: #08CEAF;
-}
+.icon-green {
+  color: #07CEAF;
 
-.position-relative {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+}
+.text-secundary{
+  color: #07CEAF;
 }
 
 .title-sections {
